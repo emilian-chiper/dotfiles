@@ -107,3 +107,4 @@ export N_PREFIX="$HOME/n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PR
 export PATH=$PATH:/usr/local/go/bin
 export GTK_THEME=rose-pine-moon-gtk
 source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+alias dodev='~/custom_scripts/open_tmux.sh'

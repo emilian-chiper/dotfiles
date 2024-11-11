@@ -196,3 +196,6 @@ exec --no-startup-id /home/emiliano_/custom_scripts/wallpaper-slideshow.sh
 # Adjust brightness
 bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl -d amdgpu_bl1 set 3%-
 bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl -d amdgpu_bl1 set +3%
+
+# Enable picom at startup
+exec --no-startup-id picom

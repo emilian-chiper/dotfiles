@@ -70,7 +70,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -102,9 +102,9 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-
-export N_PREFIX="$HOME/n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PREFIX/bin"  # Added by n-install (see http://git.io/n-install-repo).
-export PATH=$PATH:/usr/local/go/bin
-export GTK_THEME=rose-pine-moon-gtk
-source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 alias dodev='~/custom_scripts/open_tmux.sh'
+
+# Set GTK theme and icons
+export GTK_THEME=rose-pine-moon-gtk
+export GTK_ICON_THEME=rose-pine-moon-icons
+

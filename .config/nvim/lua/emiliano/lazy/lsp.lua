@@ -29,7 +29,6 @@ return {
                 "cssls",                           -- CSS
                 "sqlls",                           -- SQL
                 "docker_compose_language_service", -- Docker
-                "emmet_ls",                        -- Emmet
                 "graphql",                         -- GraphQL
                 "jsonls",                          -- JSON
                 "lua_ls",                          -- lua
